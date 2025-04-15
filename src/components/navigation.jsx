@@ -1,6 +1,6 @@
 import React from "react";
 
-export const Navigation = (props) => {
+export const Navigation = () => {
   return (
     <nav id="menu" className="navbar navbar-default navbar-fixed-top">
       <div className="container">
@@ -11,55 +11,56 @@ export const Navigation = (props) => {
             data-toggle="collapse"
             data-target="#bs-example-navbar-collapse-1"
           >
-            {" "}
-            <span className="sr-only">Toggle navigation</span>{" "}
-            <span className="icon-bar"></span>{" "}
-            <span className="icon-bar"></span>{" "}
-            <span className="icon-bar"></span>{" "}
+            <span className="sr-only">Toggle navigation</span>
+            <span className="icon-bar"></span>
+            <span className="icon-bar"></span>
+            <span className="icon-bar"></span>
           </button>
-          <a className="navbar-brand page-scroll" href="#page-top">
-            React Landing Page
-          </a>{" "}
+          <a className="navbar-brand page-scroll" href="#home">
+            HODLOTTO
+          </a>
         </div>
 
-        <div
-          className="collapse navbar-collapse"
-          id="bs-example-navbar-collapse-1"
-        >
+        <div className="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
           <ul className="nav navbar-nav navbar-right">
             <li>
-              <a href="#features" className="page-scroll">
-                Features
+              <a href="#home" className="page-scroll">
+                Home
               </a>
             </li>
             <li>
-              <a href="#about" className="page-scroll">
-                About
+              <a href="#what-is-it" className="page-scroll">
+                What is it
               </a>
             </li>
             <li>
-              <a href="economy" className="page-scroll">
-                Services
+              <a href="#lore" className="page-scroll">
+                Lore
               </a>
             </li>
             <li>
-              <a href="#portfolio" className="page-scroll">
-                Gallery
+              <a href="#how-it-works" className="page-scroll">
+                How it works
               </a>
             </li>
             <li>
-              <a href="#testimonials" className="page-scroll">
-                Testimonials
+              <a href="#stats" className="page-scroll">
+                Stats
               </a>
             </li>
             <li>
-              <a href="#team" className="page-scroll">
-                Team
+              <a href="#roadmap" className="page-scroll">
+                Roadmap
               </a>
             </li>
             <li>
-              <a href="#contact" className="page-scroll">
-                Contact
+              <a href="#tokenomics" className="page-scroll">
+                Tokenomics
+              </a>
+            </li>
+            <li>
+              <a href="#socials" className="page-scroll">
+                Socials
               </a>
             </li>
           </ul>

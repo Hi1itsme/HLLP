@@ -246,7 +246,7 @@ a:focus,
 /* === Section Borders === */
 /* Apply a consistent border to all main sections (using ORIGINAL IDs) */
 .intro,
-#features,
+#what_Is_it,
 #ethics,
 #economy,
 #portfolio,
@@ -263,7 +263,7 @@ a:focus,
   display: table;
   width: 100%;
   padding: 0;
-  background: url(/Cartoon_Spaceman.png) center center no-repeat;
+  background: url(/Fractal_BG.png) center center no-repeat;
   /* Corrected Path */
   background-color: #e5e5e5;
   /* Fallback color */
@@ -303,13 +303,13 @@ a:focus,
 }
 
 header .intro-text {
-  padding-top: 350px;
+  padding-top: 100px;
   padding-bottom: 200px;
   text-align: center;
 }
 
 /* Features Section (Logistics Section) */
-#features {
+#what_Is_It {
   /* --- Corrected image path --- */
   background-image: url("/spaceman_logistics.png");
 
@@ -336,7 +336,7 @@ header .intro-text {
 }
 
 /* --- Styles for title alignment (keep these) --- */
-#features .section-title {
+#what_Is_It .section-title {
   text-align: left;
   /* Override centering */
   margin-bottom: 350px;
@@ -350,7 +350,7 @@ header .intro-text {
 }
 
 /* Adjust the underline position for the left-aligned title */
-#features .section-title h2::after {
+#what_Is_It .section-title h2::after {
   left: 0;
   /* Position underline at the start */
   margin-left: 0;
@@ -359,7 +359,7 @@ header .intro-text {
 }
 
 /* --- Styles for original icons (remove if elements deleted from JSX) --- */
-#features i.fa {
+#what_Is_It i.fa {
   font-size: 38px;
   margin-bottom: 200px;
   transition: all 0.5s;
